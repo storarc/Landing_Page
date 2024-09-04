@@ -25,16 +25,16 @@ export default function App() {
             duration: 0.8,
             ease: "easeInOut",
           }}
-          className="relative flex flex-col gap-4 items-center justify-center px-4"
+          className="relative flex flex-col gap-4 items-center justify-center px-4 pt-8"
         >
-          <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
-            YOU NOW OWN COMPUTATION
+          <div className="text-3xl font-ubuntu md:text-5xl lg:text-7xl font-bold dark:text-white text-center">
+            COMPUTATION REIMAGINED, CONTROL REDEFINED
           </div>
-          <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
+          <div className="font-extralight font-ubuntu text-base md:text-4xl dark:text-neutral-200 py-4">
             DECENTRALIZED PRIVATE COMPUTING IS HERE
           </div>
           <button
-            className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2"
+            className="font-ubuntu bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2"
             onClick={scrollToAbout}
           >
             Learn More
@@ -47,8 +47,8 @@ export default function App() {
             id="about"
             className="bg-white text-gray-800 py-20 px-20 flex flex-col justify-center items-center"
           >
-            <h1 className="text-3xl font-bold mb-4">About Us</h1>
-            <div className="text-lg leading-relaxed">
+            <h1 className="text-3xl font-ubuntu font-bold mb-4">About Us</h1>
+            <div className="text-lg leading-relaxed font-grotesk">
               <ul class="list-disc">
                 <li>
                   Storarc is a Private Computing Solution on AO, a system
@@ -101,22 +101,17 @@ export default function App() {
             <div className="container mx-auto flex flex-col md:flex-row items-center">
               {/* Content Div */}
               <div className="flex-1 md:w-1/2 mb-8 md:mb-0 md:pr-8">
-                <h2 className="text-3xl font-bold mb-4">Your Heading Here</h2>
-                <p className="text-lg leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Vivamus lacinia odio vitae vestibulum. Morbi et elit id libero
-                  malesuada dapibus. Integer facilisis, elit non sagittis
-                  viverra, ipsum elit dictum sapien, id faucibus felis ligula
-                  nec libero. Sed suscipit velit vel elit cursus, in cursus eros
-                  vehicula. Suspendisse potenti.
-                </p>
+                <h2 className="text-3xl font-ubuntu font-bold mb-4">Coming Soon</h2>
+                <ul className="list-disc ml-4">
+                  <li>Litepaper</li>
+                </ul>
               </div>
 
               {/* Image Div */}
               <div className="flex-1 md:w-1/2">
                 <img
-                  src="https://via.placeholder.com/600x400"
-                  alt="Placeholder Image"
+                  src="metal.jpg"
+                  alt="Cube "
                   className="w-full h-auto object-cover rounded-lg"
                 />
               </div>

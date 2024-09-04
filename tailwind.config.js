@@ -11,6 +11,11 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      fontFamily: {
+        grotesk: ['Space Grotesk', 'sans-serif'],
+        ubuntu: ['Ubuntu', 'sans-serif'],
+        orbitron: ['Orbitron', 'sans-serif']
+      },
       animation: {
         aurora: "aurora 60s linear infinite",
       },

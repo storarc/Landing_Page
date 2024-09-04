@@ -8,9 +8,8 @@ const Footer = () => {
                 {/* Contact Information */}
                 <div className="mb-4 md:mb-0">
                     <h2 className="text-lg font-bold mb-2">Contact Us</h2>
-                    <p className="text-sm">1234 Street Name, City, Country</p>
-                    <p className="text-sm">Phone: (123) 456-7890</p>
-                    <p className="text-sm">Email: contact@example.com</p>
+                    <p className="text-sm">Phone: +91 70171 14378</p>
+                    <p className="text-sm">Email: info@storarc.network</p>
                 </div>
 
                 {/* Navigation Links */}
@@ -18,9 +17,6 @@ const Footer = () => {
                     <h2 className="text-lg font-bold mb-2">Quick Links</h2>
                     <ul className="space-y-1">
                         <li><a href="#about" className="hover:underline">About Us</a></li>
-                        <li><a href="#pricing" className="hover:underline">Pricing</a></li>
-                        <li><a href="#product" className="hover:underline">Product</a></li>
-                        <li><a href="#contact" className="hover:underline">Contact</a></li>
                     </ul>
                 </div>
 

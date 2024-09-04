@@ -4,23 +4,17 @@ import React from "react";
 const Header = ({setForm}) => {
     console.log("setForm",setForm)
   return (
-    <header className="fixed top-0 left-0 w-full h-20 bg-gray-800 text-white flex items-center justify-between px-6 z-50">
+    <header className="fixed top-0 left-0 w-full h-20 bg-gray-800 text-white flex items-center justify-between pl-6 z-50">
       {/* Company Name */}
       {/* <div className="text-xl font-bold">Optimum</div> */}
-      <h1 className="text-3xl font-bold bg-gradient-to-r from-[#3b82f6] via-[#93c5fd] to-[#ddd6fe]  inline-block text-transparent bg-clip-text">
+      <h1 className="text-3xl font-orbitron font-bold bg-gradient-to-r from-[#3b82f6] via-[#93c5fd] to-[#ddd6fe]  inline-block text-transparent bg-clip-text">
       Storarc
       </h1>
 
       {/* Navigation */}
-      <nav className="flex space-x-6">
+      <nav className="font-ubuntu flex flex-center text-lg">
         <a href="#about" className="hover:text-gray-400">
           About
-        </a>
-        <a href="#pricing" className="hover:text-gray-400">
-          Pricing
-        </a>
-        <a href="#product" className="hover:text-gray-400">
-          Product
         </a>
       </nav>
 
@@ -49,7 +43,7 @@ const Header = ({setForm}) => {
               type="button"
               className="transtion group relative flex h-10 w-32 items-center justify-center rounded-full bg-gradient-to-r from-[#3b82f6] via-[#93c5fd] to-[#ddd6fe] p-[1.5px] text-white duration-300 hover:bg-gradient-to-l hover:shadow-2xl hover:shadow-purple-600/30"
             >
-              <div className="flex h-full w-full items-center justify-center rounded-full bg-gray-900 transition duration-300 ease-in-out group-hover:bg-gradient-to-br group-hover:from-gray-700 group-hover:to-gray-900 group-hover:transition group-hover:duration-300 group-hover:ease-in-out">
+              <div className="font-ubuntu flex h-full w-full items-center justify-center rounded-full bg-gray-900 transition duration-300 ease-in-out group-hover:bg-gradient-to-br group-hover:from-gray-700 group-hover:to-gray-900 group-hover:transition group-hover:duration-300 group-hover:ease-in-out">
                 Waitlist
               </div>
             </button>
