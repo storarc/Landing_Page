@@ -28,7 +28,7 @@ const WaitListForm = ({open,setOpen}) => {
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbzFaK1o_EtwoFTtDGj1zmttt4VIc5R53zmvlFhGZLTPTNtVDlDsXL18m-VqT9J03NrRLg/exec",
+        "https://script.google.com/macros/s/AKfycbxHBaeEU23S7GJprrLKeMfntBaeSaP0EIMhEiLcRo9JRvFqhfcPTwXQ-D4wFYbFE_cP/exec",
         {
           method: "POST",
 
